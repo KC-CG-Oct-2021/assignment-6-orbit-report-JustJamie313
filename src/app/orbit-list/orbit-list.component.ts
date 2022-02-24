@@ -27,7 +27,6 @@ export class OrbitListComponent implements OnInit {
 		});
 	}
 	alternate(satellite){
-		console.log(satellite)
 		if(satellite){
 			if(this.satellites.indexOf(satellite)%2 === 0){
 				return true;
